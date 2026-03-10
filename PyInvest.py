@@ -10,7 +10,7 @@ locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 capital = float(input('Capital inicial: '))
 aporte = float(input('Aport mensal: '))
 meses = int(input('Prazo em meses: '))
-cdi_anual = float(input('CDI anual (%)')) / 100
+cdi_anual = float(input('CDI anual (%) ')) / 100
 perc_cdb = float(input('Percentual do CDI (%) ')) / 100
 perc_lci = float(input('Percentual do LCI (%) ')) / 100
 taxa_fii = float(input('Rentabilidade mensal FII (%)')) / 100
